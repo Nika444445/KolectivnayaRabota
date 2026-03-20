@@ -1,0 +1,143 @@
+.header{
+    width: 100%;
+    height: 60px;
+    z-index: 0;
+    position: fixed;
+    background-color: #eeeff3;
+    border-bottom: 1px solid #C4D1EB;
+    border-radius: 5px;
+}
+
+.header-master{
+    width: 70%;
+    height: 100%;
+    padding-left: 18%;
+    padding-right: 12%;
+}
+
+.logo{
+    width: 10%;
+    height: 90%;
+    margin-right: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 60%;
+    width: 20%;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+    background-size: cover;
+}
+
+h1{
+    font-family: sans-serif;
+    opacity: 0.8;
+    font-size: 30px;
+    font-stretch: 5px;
+}
+
+.mid{
+    float: left;
+    height: 100%;
+    width: 50;
+    text-align: center;
+}
+
+.mid p{
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-family: sans-serif;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
+.mid img{
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    
+}
+
+
+
+.text p{
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 26px;
+    letter-spacing: 0.3px;
+    margin-right: 15px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    opacity: 0.9;
+}
+
+.text{
+    float: left;
+}
+
+.poisk{
+    width: 16%;
+    height: 100%;
+    float: left;
+    margin-left: 183px;
+    padding-top: 10px;
+}
+.poiskimg{
+    width: 20px;
+    float: left;
+    margin-right: 7px;
+    height: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.poisk p{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-weight: normal;
+}
+
+.loginregister{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.voity{
+    width: 30%;
+    height: 60%;
+    opacity: 1;
+    border-radius: 2px;
+    border-width: 0px;
+    background: #24cb79;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.reg{
+    width: 60%;
+    height: 60%;
+    border-radius: 2px;
+    opacity: 1;
+    color: white;
+    border-width: 0px;
+    background: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
